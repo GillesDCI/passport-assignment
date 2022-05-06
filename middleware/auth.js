@@ -1,9 +1,3 @@
-function checkAuthenticated (req, res, next){
+export function checkAuthenticated(req, res, next) {}
 
-}
-
-function checkNotAuthenticated(req, res, next){
-
-}
-
-module.exports = {checkAuthenticated, checkNotAuthenticated};
+export function checkNotAuthenticated(req, res, next) {}

@@ -1,8 +1,8 @@
-const express = require('express');
-const controller = require('../controllers/homeController');
+import express from "express";
+import * as homeControllers from "../controllers/homeController.js";
 
 const router = express.Router();
 
-router.get('/',  controller.home)
+router.get("/", homeControllers.home);
 
 module.exports = router;
