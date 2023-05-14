@@ -1,17 +1,7 @@
- exports.login =  async (req, res) => {
-   
- }
- 
- exports.register = async(req, res) => {
-   
- }
- 
- 
- exports.registerUser = async (req, res) => {
+export const login = async (req, res) => {};
 
-     
- }
- 
- exports.logout = async(req, res) => {
+export const register = async (req, res) => {};
 
- }
+export const registerUser = async (req, res) => {};
+
+export const logout = async (req, res) => {};
